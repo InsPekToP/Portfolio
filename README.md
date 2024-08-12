@@ -1,0 +1,1 @@
+Портфолио InsPekToP на вакансию Junior Python-developer
