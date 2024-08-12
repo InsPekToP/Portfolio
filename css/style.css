@@ -25,3 +25,37 @@
     --user-name-fz: calc(14px + (30 - 14)*((100vw - 300px) / (1500 - 300)));
     --info-box-fz: calc(14px + (40 - 14)*((100vw - 300px) / (1500 - 300)));
 }
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+body{
+   background: #222;
+   /* посмотреть полосу прокрутки */
+   /* min-height: 200vh; */
+}
+/* полоса прокрутки */
+body {
+    --sb-track-color: #222;
+    --sb-thumb-color: deepskyblue;
+    --sb-size: 1rem;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 1rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 1rem;
+}
+/* конец полосы прокрутки */
