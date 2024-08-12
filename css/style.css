@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: 0;
     outline: 0;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
     font-family: 'Nunito', sans-serif;
 }
@@ -13,9 +13,9 @@
     /* тень */
     --box-shadow:0rem .5rem .5rem rgba(0,0,0,.3);
     --glowing-bxs:0 0 .1rem deepskyblue,
-    0 0 .2rem deepskyblue,
-    0 0 .3rem deepskyblue,
-    0 0 .5rem deepskyblue;
+        0 0 .2rem deepskyblue,
+        0 0 .3rem deepskyblue,
+        0 0 .5rem deepskyblue;
     --heading: calc(25px + (50 - 25)*((100vw - 300px) / (1500 - 300)));
     --big-fz: calc(30px + (100 - 30)*((100vw - 300px) / (1500 - 300)));
     --large-fz: calc(30px + (80 - 30)*((100vw - 300px) / (1500 - 300)));
@@ -59,3 +59,35 @@ body::-webkit-scrollbar-thumb {
     border-radius: 1rem;
 }
 /* конец полосы прокрутки */
+
+/* header section start */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    z-index: 1000;
+}
+header .user img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 0.7rem solid var(--main-clr);
+}
+
+
+
+
+
+
+
+
+/* header section end */
