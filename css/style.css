@@ -138,8 +138,15 @@ header .navbar ul li a:hover{
 /* header section end */
 
 /*media queries*/
+/* оптимизация боковой панели */
 @media(max-width:991px){
     header{
         left:-120%;
+    }
+    #menu {
+        display: block;
+    }
+    header.active{
+        left:0%;
     }
 }
