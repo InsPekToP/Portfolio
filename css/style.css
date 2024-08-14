@@ -5,7 +5,7 @@
     border: 0;
     outline: 0;
     /* text-transform: capitalize; */
-    transition: all .2s linear;
+    transition: all 0.2s linear;
     font-family: 'Nunito', sans-serif;
 }
 :root{
@@ -67,6 +67,7 @@ header{
     left: 0;
     height: 100%;
     width: 35rem;
+    background: #0d1117;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,8 +82,12 @@ header .user img {
     object-fit: cover;
     margin-bottom: 1rem;
     border: 0.7rem solid var(--main-clr);
+    box-shadow: var(--glowing-bxs);
 }
-
+header .user .name {
+    color: #fff;
+    font-size: var(--user-name-fz);
+}
 
 
 
