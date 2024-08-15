@@ -66,6 +66,22 @@ section{
     min-height: 100vh;
     padding: 1rem;
 }
+.btn{
+    padding: 0.7rem 3rem;
+    background: #0d1117;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    font-size: var(--medium-fz);
+}
+.btn i{
+    padding: 0rem 0.5rem;
+    font-size: var(--small-fz);
+}
+.btn:hover{
+    background: var(--main-clr);
+}
 
 /* header section start */
 header{
@@ -147,7 +163,7 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 15rem;
+    padding: 0rem 5rem;
 }
 .home .container{
     display: flex;
@@ -156,12 +172,50 @@ header .navbar ul li a:hover{
     font-size: var(--big-fz);
     color:#fff;
 }
-
-
+.home .container .first-text{
+    font-size: var(--large-fz);
+    color: #fff;
+}
+.home .container{
+    height: 9rem;
+    line-height: 9rem;
+    overflow: hidden;
+}
+.home .container .second-text li{
+    list-style: none;
+    font-size: var(--large-fz);
+    color: var(--main-clr);
+    padding: 0rem 2rem;
+    text-shadow: 0 0 1rem var(--main-clr);
+    position: relative;
+    top: 0;
+    animation: slide 8s steps(4) infinite,color 7s infinite;
+}
+@keyframes slide{
+    100%{
+        top:-36rem
+    }
+}
+@keyframes color{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.home p{
+    font-size: var(--small-fz);
+    color: #fff;
+    padding: 1rem 0rem;
+}
 /* home section end */
 
 /*media queries*/
 /* оптимизация боковой панели */
+@media(max-width:1200px){
+    .home{
+        padding: 1rem 4rem;
+    }
+}
+
 @media(max-width:991px){
     header{
         left:-120%;
@@ -171,6 +225,9 @@ header .navbar ul li a:hover{
     }
     header.active{
         left:0%;
+    }
+    body{
+        padding: 0;
     }
 }
 @media(max-width:400px){
