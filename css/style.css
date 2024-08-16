@@ -82,6 +82,17 @@ section{
 .btn:hover{
     background: var(--main-clr);
 }
+.heading{
+    text-align: center;
+    margin: 3rem 0rem;
+    font-size: var(--heading);
+    padding: 1rem;
+    color: #fff;
+    border-bottom: .1rem solid #fff4;
+}
+.heading span{
+    color: var(--main-clr);
+}
 
 /* header section start */
 header{
@@ -207,6 +218,62 @@ header .navbar ul li a:hover{
     padding: 1rem 0rem;
 }
 /* home section end */
+
+/* about section start */
+/* .about{
+    background: url('../img/user_bg.jpg') top center no-repeat #0d1117;
+} */
+
+
+.about .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+    /* background: url('../img/user_bg.jpg') top center no-repeat #0d1117; */
+}
+.about .row .info{
+    flex: 1 1 0rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;;
+}
+.about .row .info h4{
+    font-size: var(--medium-fz);
+    color: var(--main-clr);
+    padding: 1rem 0rem;
+}
+.about .row .info h4 span{
+    color: #fff;
+    padding: 0rem 0.5rem;
+}
+.about .row .info-box{
+    flex: 1 1 50rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about .row .info-box .box{
+    flex: 1 1 20rem;
+    background-color: #0d1117;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+.about .row .info-box .box span{
+    color: var(--main-clr);
+    font-size: var(--info-box-fz);
+}
+.about .row .info-box .box h3{
+    color:#fff;
+    font-size: var(--h3-fz);
+}
+
+
+/* about section end */
+
+
+
 
 /*media queries*/
 /* оптимизация боковой панели */
