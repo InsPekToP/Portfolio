@@ -326,7 +326,9 @@ header .navbar ul li a:hover{
 /* education section end */
 
 /* portfolio section start */
-
+.portfolio .box-container{
+    display: flex;
+}
 
 
 
