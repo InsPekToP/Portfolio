@@ -317,6 +317,13 @@ header .navbar ul li a:hover{
     padding-top: 1.5rem;
 }
 
+.education .box-container .box p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 0rem;
+
+}
+
 /* education section end */
 
 
