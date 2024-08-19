@@ -270,7 +270,54 @@ header .navbar ul li a:hover{
 }
 /* about section end */
 
+/* education section start */
+.education .box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+    padding-left: 3rem;
+}
 
+.education .box-container .box{
+    flex: 1 1 30rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: 0.2rem solid #fff;
+    position: relative;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top:-1.5rem;
+    left: -2.5rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    color: #fff;
+    background: var(--main-clr);
+    font-size: var(--medium-fz);
+    box-shadow: var(--glowing-bxs);
+}
+
+.education .box-container .box span{
+    background: #0d1117;
+    border-radius: 5rem;
+    padding: 0.5rem 2.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: var(--medium-fz);
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+/* education section end */
 
 
 /*media queries*/
