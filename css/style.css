@@ -352,10 +352,8 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box:hover,img{
-    scale: 1.1;
+    transform: scale(1.1);
 }
-
-
 /* portfolio section end */
 
 
@@ -387,4 +385,4 @@ header .navbar ul li a:hover{
     }
 }
 
-/* 1,17*/
+/* 1,24*/
