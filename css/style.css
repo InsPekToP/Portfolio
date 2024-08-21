@@ -326,6 +326,7 @@ header .navbar ul li a:hover{
 /* education section end */
 
 /* portfolio section start */
+
 .portfolio .box-container{
     display:flex;
     justify-content: center;
@@ -355,6 +356,62 @@ header .navbar ul li a:hover{
     transform: scale(1.1);
 }
 /* portfolio section end */
+
+/* contact section start */
+
+.contact .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+
+.contact .row .content h3{
+    color: #fff;
+    font-size: var(--h3-fz);
+}
+
+.contact .row .content .info h4{
+    color: #fff;
+    font-size: var(--small-fz);
+    text-transform:  none;
+    margin: 1.5rem 0rem;
+    padding: 1rem;
+}
+
+.contact .row .content .info i{
+    color: var(--main-clr);
+    padding-right: 1rem;
+}
+
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .input-box{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #0d1117;
+    color:#fff;
+    text-transform: none;
+}
+
+.contact .row form textarea{
+    height: 20rem;
+    resize: none;
+}
+
+/* contact section end */
 
 
 /*media queries*/
