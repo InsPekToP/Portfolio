@@ -410,8 +410,36 @@ header .navbar ul li a:hover{
     height: 20rem;
     resize: none;
 }
-
 /* contact section end */
+
+/* footer section start */
+
+.social-links{
+    text-align: center;
+    padding: 0rem 0rem 3rem;
+}
+
+.social-links a{
+    margin: 0rem .3rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #000;
+    font-size: var(--medium-fz);
+}
+
+.social-links a:hover{
+    background-color: var(--main-clr);
+    color: #fff;
+    box-shadow: var(--glowing-bxs);
+}
+
+
+
+/* footer section end */
 
 
 /*media queries*/
