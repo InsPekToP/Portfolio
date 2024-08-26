@@ -336,8 +336,8 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box{
-    flex: 1 1 25rem;
-    height: 25rem;
+    flex: 1 1 40rem;
+    height: 40rem;
     border-radius: 2rem;
     border: 0.5rem solid var(--main-clr);
     margin: 2.5rem;
@@ -414,12 +414,14 @@ header .navbar ul li a:hover{
 
 /* footer section start */
 
-.social-links{
+.social-links,
+.social-media{
     text-align: center;
-    padding: 0rem 0rem 3rem;
+    padding: 0rem 0rem 0rem;
 }
 
-.social-links a{
+.social-links a,
+.social-media a{
     margin: 0rem .3rem;
     width: 4.5rem;
     height: 4.5rem;
@@ -431,14 +433,12 @@ header .navbar ul li a:hover{
     font-size: var(--medium-fz);
 }
 
-.social-links a:hover{
+.social-links a:hover,
+.social-media a:hover{
     background-color: var(--main-clr);
     color: #fff;
     box-shadow: var(--glowing-bxs);
 }
-
-
-
 /* footer section end */
 
 
