@@ -417,15 +417,27 @@ header .navbar ul li a:hover{
 .social-links,
 .social-media{
     text-align: center;
-    padding: 0rem 0rem 0rem;
+    padding: 1rem 0rem 1rem;
 }
 
-.social-links a,
-.social-media a{
+.social-links a
+{
     margin: 0rem .3rem;
     width: 4.5rem;
     height: 4.5rem;
     line-height: 4.5rem;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #000;
+    font-size: var(--medium-fz);
+}
+
+.social-media a{
+    margin: 0rem .1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
     background-color: #fff;
     text-decoration: none;
     border-radius: 50%;
@@ -469,5 +481,3 @@ header .navbar ul li a:hover{
         width: 100vw;
     }
 }
-
-/* 1,24*/
