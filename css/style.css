@@ -101,7 +101,8 @@ header{
     left: 0;
     height: 100%;
     width: 35rem;
-    background: #0d1117;
+    /* можно убать прозрачность */
+    background: #0d1117f1;
     display: flex;
     justify-content: center;
     align-items: center;

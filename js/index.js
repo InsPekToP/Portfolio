@@ -7,7 +7,7 @@ menu.onclick = () => {
     openMenu.classList.toggle('active')
 }
 
-// Добавляем обработчик события для каждого элемента навигации
+//Добавляем обработчик события для каждого элемента навигации
 navLinks.forEach(link => {
     link.onclick = () => {
         menu.classList.remove('fa-times'); // закрываем меню
