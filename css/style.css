@@ -368,7 +368,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content{
     flex: 1 1 30rem;
-    padding: 4rem;
+    padding: 1rem;
     padding-bottom: 0;
 }
 
@@ -392,7 +392,7 @@ header .navbar ul li a:hover{
 
 .contact .row form{
     flex: 1 1 45rem;
-    padding: 2rem;
+    padding: 1rem;
     margin: 2rem;
     margin-bottom: 4rem;
 }
@@ -410,9 +410,6 @@ header .navbar ul li a:hover{
     height: 20rem;
     resize: none;
 }
-/* contact section end */
-
-/* footer section start */
 
 .social-links,
 .social-media{
@@ -451,6 +448,13 @@ header .navbar ul li a:hover{
     color: #fff;
     box-shadow: var(--glowing-bxs);
 }
+/* contact section end */
+
+
+/* footer section start */
+
+
+
 /* footer section end */
 
 
