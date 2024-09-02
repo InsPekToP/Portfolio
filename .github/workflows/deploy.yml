@@ -18,14 +18,14 @@ jobs:
       with:
         node-version: '16'
 
-    - name: Install dependencies
+    # - name: Install dependencies
       # run: npm install # если у вас есть зависимости
 
     - name: Replace form action URL
       run: |
         sed -i 's|action=""|action="https://formspree.io/f/xgvwpabp"|' path/to/your/index.html
 
-    - name: Build project
+    # - name: Build project
       # run: npm run build # если у вас есть процесс сборки, иначе пропустите этот шаг
 
     - name: Deploy to GitHub Pages
