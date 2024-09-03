@@ -1,0 +1,18 @@
+{
+    "en": {
+      "welcome": "Welcome to our website!",
+      "about": "About us",
+      "contact": "Contact"
+    },
+    "ru": {
+      "welcome": "Добро пожаловать на наш сайт!",
+      "about": "О нас",
+      "contact": "Контакты"
+    },
+    "pl": {
+      "welcome": "Witamy na naszej stronie!",
+      "about": "O nas",
+      "contact": "Kontakt"
+    }
+  }
+  
