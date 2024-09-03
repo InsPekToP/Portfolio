@@ -32,8 +32,41 @@ async function loadTranslations() {
 // Функция для применения переводов на странице
 function applyTranslations() {
   document.getElementById('name').textContent = translations[currentLanguage].name;
-//   document.getElementById('about-text').textContent = translations[currentLanguage].about;
-//   document.getElementById('contact-text').textContent = translations[currentLanguage].contact;
+  document.getElementById('developer').textContent = translations[currentLanguage].developer;
+  document.getElementById('about_lg').textContent = translations[currentLanguage].about_lg;
+  document.getElementById('education_lg').textContent = translations[currentLanguage].education_lg;
+  document.getElementById('proects_lg').textContent = translations[currentLanguage].proects_lg;
+  document.getElementById('home_lg').textContent = translations[currentLanguage].home_lg;
+  document.getElementById('contact_lg').textContent = translations[currentLanguage].contact_lg;
+  
+
+document.getElementById('greeting').textContent = translations[currentLanguage].greeting;
+document.getElementById('i_am').textContent = translations[currentLanguage].i_am;
+document.getElementById('full_stack_developer').textContent = translations[currentLanguage].full_stack_developer;
+document.getElementById('freelancer').textContent = translations[currentLanguage].freelancer;
+document.getElementById('designer').textContent = translations[currentLanguage].designer;
+document.getElementById('about_me').textContent = translations[currentLanguage].about_me;
+document.getElementById('name_label').textContent = translations[currentLanguage].name_label;
+document.getElementById('age_label').textContent = translations[currentLanguage].age_label;
+document.getElementById('profession_label').textContent = translations[currentLanguage].profession_label;
+document.getElementById('qualification_label').textContent = translations[currentLanguage].qualification_label;
+document.getElementById('download_cv').textContent = translations[currentLanguage].download_cv;
+document.getElementById('experience').textContent = translations[currentLanguage].experience;
+document.getElementById('work_experience').textContent = translations[currentLanguage].work_experience;
+document.getElementById('projects_count').textContent = translations[currentLanguage].projects_count;
+document.getElementById('projects_label').textContent = translations[currentLanguage].projects_label;
+document.getElementById('satisfied_clients').textContent = translations[currentLanguage].satisfied_clients;
+document.getElementById('satisfied_clients_label').textContent = translations[currentLanguage].satisfied_clients_label;
+document.getElementById('programming_languages_count').textContent = translations[currentLanguage].programming_languages_count;
+document.getElementById('programming_languages_label').textContent = translations[currentLanguage].programming_languages_label;
+document.getElementById('my_education').textContent = translations[currentLanguage].my_education;
+document.getElementById('my_proects').textContent = translations[currentLanguage].my_proects;
+document.getElementById('feedback').textContent = translations[currentLanguage].feedback;
+document.getElementById('contact_info').textContent = translations[currentLanguage].contact_info;
+document.getElementById('location').textContent = translations[currentLanguage].location;
+document.getElementById('name_placeholder').setAttribute('placeholder', translations[currentLanguage].name_placeholder);
+document.getElementById('message_placeholder').setAttribute('placeholder', translations[currentLanguage].message_placeholder);
+document.getElementById('send').textContent = translations[currentLanguage].send;
 }
 
 // Функция для смены языка

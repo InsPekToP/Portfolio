@@ -35,11 +35,11 @@
         </div>
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a id="home" href="#home">Главная</a></li>
-                <li><a id="about" href="#about">О себе</a></li>
-                <li><a id="education" href="#education">Образование</a></li>
-                <li><a id="portfolio" href="#portfolio">Проекты</a></li>
-                <li><a id="contact" href="#contact">Контакты</a></li>
+                <li><a id="home_lg" href="#home">Главная</a></li>
+                <li><a id="about_lg" href="#about">О себе</a></li>
+                <li><a id="education_lg" href="#education">Образование</a></li>
+                <li><a id="proects_lg" href="#portfolio">Проекты</a></li>
+                <li><a id="contact_lg" href="#contact">Контакты</a></li>
             </ul>
             
         </nav>
@@ -49,14 +49,14 @@
      
     <!-- home section start -->
     <section id="home" class="home">
-        <h3>Привет:)</h3>
+        <h3 id="greeting">Привет:)</h3>
         <div class="container">
-            <span class="first-text">Я</span>
+            <span id="i_am" class="first-text">Я</span>
             <ul class="second-text">
-                <li><span>Python-разработчик</span></li>
-                <li><span>Full-stack разработчик</span></li>
-                <li><span>Фрилансер</span></li>
-                <li><span>Дизайнер</span></li>
+                <li><span id="python_developer">Python-разработчик</span></li>
+                <li><span id="full_stack_developer">Full-stack разработчик</span></li>
+                <li><span id="freelancer">Фрилансер</span></li>
+                <li><span id="designer">Дизайнер</span></li>
             </ul>
         </div>
         
@@ -67,7 +67,7 @@
         </p>
 
         <a href="#about">
-            <button class="btn">О себе <i class="fas fa-user"></i></button>
+            <button id="about_me" class="btn">О себе <i class="fas fa-user"></i></button>
         </a>
 
 
@@ -76,34 +76,34 @@
 
 <!-- about section start -->
     <section id="about" class="about">
-        <h3 class="heading"><span>O </span>себе</h3>
+        <h3 id="about_me" class="heading"><span>O </span>себе</h3>
     <div class="row">
         <div class="info">
-            <h4><span>Имя:</span>Михаил</h4>
-            <h4><span>Возраст:</span>33</h4>
-            <h4><span>Профессия:</span>Разработчик</h4>
-            <h4><span>Квалификация:</span>Junior</h4>
+            <h4 id="name_label"><span>Имя:</span>Михаил</h4>
+            <h4 id="age_label" ><span>Возраст:</span>33</h4>
+            <h4 id="profession_label"><span>Профессия:</span>Разработчик</h4>
+            <h4 id="qualification_label"><span>Квалификация:</span>Junior</h4>
             <a href="resume/CV_Holykov_developer_ru.docx" download="CV_Holykov-developer.docx">
-                <button class="btn">Скачать CV <i class="fas fa-download"></i></button>
+                <button id="download_cv" class="btn">Скачать CV <i class="fas fa-download"></i></button>
             </a>
         </div>
         <div class="info-box">
 
             <div class="box">
-                <span>Более 1,5 года</span>
-                <h3>Опыта работы</h3>
+                <span id="experience">Более 1,5 года</span>
+                <h3 id="work_experience">Опыта работы</h3>
             </div>
             <div class="box">
-                <span>Десятки</span>
-                <h3>Проектов</h3>
+                <span id="projects_count">Десятки</span>
+                <h3 id="projects_label">Проектов</h3>
             </div>
             <div class="box">
-                <span>Множество</span>
-                <h3>Довольных клиентов</h3>
+                <span id="satisfied_clients">Множество</span>
+                <h3 id="satisfied_clients_label">Довольных клиентов</h3>
             </div>
             <div class="box">
-                <span>2</span>
-                <h3>Языка программирования</h3>
+                <span id="programming_languages_count">2</span>
+                <h3 id="programming_languages_label">Языка программирования</h3>
             </div>
 
 
@@ -114,7 +114,7 @@
 
 <!-- education section start -->
 <section id="education" class="education">
-    <h3 class="heading">Мое <span>Образование</span></h3>
+    <h3 id="my_education" class="heading">Мое <span>Образование</span></h3>
     <div class="box-container">
         <div class="box">
             <i class="fa fa-graduation-cap"></i>
@@ -181,7 +181,7 @@
 <!--portfolio section start -->
 
 <section id="portfolio" class="portfolio">
-    <h3 class="heading">Мои <span>Проекты</span></h3>
+    <h3 id="my_proects" class="heading">Мои <span>Проекты</span></h3>
     <div class="box-container">
         <div class="box">
             <a href="https://inspektop.github.io/L2spike/" target="_blank"><img src="img/projects/proect_4.png" alt="project_4"></a>
@@ -202,7 +202,7 @@
 <!--contact section start -->
 
 <section id="contact" class="contact">
-    <h3 class="heading"><span>Обратная </span>связь</h3>
+    <h3 id="feedback" class="heading"><span>Обратная </span>связь</h3>
 
     <div class="social-links">
         <a href="https://github.com/InsPekToP" target="_blank" class="fab fa-github" ></a>
@@ -214,21 +214,21 @@
     <div class="row">
 
         <div class="content">
-            <h3>Контактная информация</h3>
+            <h3 id="contact_info">Контактная информация</h3>
 
             <div class="info">
                 <h4><i class="fas fa-envelope"></i>inspektop1@gmail.com</h4>
                 <h4><i class="fa-brands fa-telegram"></i>t.me/inspektop911</h4>
-                <h4><i class="fas fa-map-marker-alt"></i>Gdansk,Poland</h4>   
+                <h4><i class="fas fa-map-marker-alt"></i>Гданск,Польша</h4>   
             </div>
         </div>
         <form id="contactForm" action="https://formspree.io/f/xgvwpabp" class="action" method="POST">
 
-            <input type="text" name="text" class="input-box" placeholder="Имя" autocomplete="on">
+            <input id="name_placeholder" type="text" name="text" class="input-box" placeholder="Имя" autocomplete="on">
             <input type="email" name="email" class="input-box" placeholder="Email" autocomplete="on">
             <!-- <input type="text" class="input-box" placeholder="Проект" autocomplete="off"> -->
-            <textarea name="message" id="" cols="30" rows="10" class="input-box" placeholder="Сообщение"></textarea>
-            <button type="submit" class="btn">Отправить <i class="fas fa-paper-plane"></i></button>
+            <textarea id="message_placeholder" name="message" id="" cols="30" rows="10" class="input-box" placeholder="Сообщение"></textarea>
+            <button id="send" type="submit" class="btn">Отправить <i class="fas fa-paper-plane"></i></button>
         </form>
         
     </div>
