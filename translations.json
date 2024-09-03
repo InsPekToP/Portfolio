@@ -1,17 +1,29 @@
 {
     "en": {
-      "welcome": "Welcome to our website!",
-      "about": "About us",
+      "name": "Mikhail Golikov",
+      "developer": "Python-developer",
+      "home": "Home",
+      "about": "About Me",
+      "education": "Education",
+      "portfolio": "Projects",
       "contact": "Contact"
     },
     "ru": {
-      "welcome": "Добро пожаловать на наш сайт!",
-      "about": "О нас",
+      "name": "Михаил Голиков",
+      "developer": "Python-разработчик",
+      "home": "Главная",
+      "about": "О себе",
+      "education": "Образование",
+      "portfolio": "Проекты",
       "contact": "Контакты"
     },
     "pl": {
-      "welcome": "Witamy na naszej stronie!",
-      "about": "O nas",
+      "name": "Mykhailo Holykov",
+      "developer": "Python-developer",
+      "home": "Strona główna",
+      "about": "O mnie",
+      "education": "Wykształcenie",
+      "portfolio": "Projekty",
       "contact": "Kontakt"
     }
   }
