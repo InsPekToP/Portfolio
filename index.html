@@ -67,7 +67,7 @@
         </p>
 
         <a href="#about">
-            <button id="about_me" class="btn">О себе <i class="fas fa-user"></i></button>
+            <button id="about_me_btn" class="btn">О себе <i class="fas fa-user"></i></button>
         </a>
 
 
@@ -79,8 +79,11 @@
         <h3 id="about_me" class="heading"><span>O </span>себе</h3>
     <div class="row">
         <div class="info">
-            <h4 id="name_label"><span>Имя:</span>Михаил</h4>
-            <h4 id="age_label" ><span>Возраст:</span>33</h4>
+            <!-- <h4 id="name_text"><span id="name_label">Имя:</span>Михаил</h4> -->
+            <h4><span id="name_label" class="text">Имя:</span><span id="name_text" class="value">Михаил</span></h4>
+            <h4><span id="age_text" class="text">Возраст:</span><span id="age_value" class="value">33</span></h4>
+
+            
             <h4 id="profession_label"><span>Профессия:</span>Разработчик</h4>
             <h4 id="qualification_label"><span>Квалификация:</span>Junior</h4>
             <a href="resume/CV_Holykov_developer_ru.docx" download="CV_Holykov-developer.docx">
@@ -219,7 +222,7 @@
             <div class="info">
                 <h4><i class="fas fa-envelope"></i>inspektop1@gmail.com</h4>
                 <h4><i class="fa-brands fa-telegram"></i>t.me/inspektop911</h4>
-                <h4><i class="fas fa-map-marker-alt"></i>Гданск,Польша</h4>   
+                <h4 id="location"><i class="fas fa-map-marker-alt"></i>Гданск,Польша</h4>   
             </div>
         </div>
         <form id="contactForm" action="https://formspree.io/f/xgvwpabp" class="action" method="POST">

@@ -250,10 +250,16 @@ header .navbar ul li a:hover{
     color: var(--main-clr);
     padding: 1rem 0rem;
 }
+
+.about .row .info h4 .value{
+    color:var(--main-crl)
+}
+
 .about .row .info h4 span{
     color: #fff;
     padding: 0rem 0.5rem;
 }
+
 .about .row .info-box{
     flex: 1 1 50rem;
     display: flex;
