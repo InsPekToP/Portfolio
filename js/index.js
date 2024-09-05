@@ -50,8 +50,10 @@ function applyTranslations() {
   document.getElementById('name_text').textContent = translations[currentLanguage].name_text;
   document.getElementById('age_text').textContent = translations[currentLanguage].age_text;
   document.getElementById('age_value').textContent = translations[currentLanguage].age_value;
-  document.getElementById('profession_label').textContent = translations[currentLanguage].profession_label;
-  document.getElementById('qualification_label').textContent = translations[currentLanguage].qualification_label;
+  document.getElementById('profession_text').textContent = translations[currentLanguage].profession_text;
+  document.getElementById('profession_value').textContent = translations[currentLanguage].profession_value;
+  document.getElementById('qualification_text').textContent = translations[currentLanguage].qualification_text;
+  document.getElementById('qualification_value').textContent = translations[currentLanguage].qualification_value;
   document.getElementById('download_cv').textContent = translations[currentLanguage].download_cv;
   document.getElementById('experience').textContent = translations[currentLanguage].experience;
   document.getElementById('work_experience').textContent = translations[currentLanguage].work_experience;
