@@ -45,7 +45,8 @@ function applyTranslations() {
   document.getElementById('freelancer').textContent = translations[currentLanguage].freelancer;
   document.getElementById('designer').textContent = translations[currentLanguage].designer;
   document.getElementById('about_me_btn').textContent = translations[currentLanguage].about_me_btn;
-  document.getElementById('about_me').textContent = translations[currentLanguage].about_me;
+  document.getElementById('about_me_text').textContent = translations[currentLanguage].about_me_text;
+  document.getElementById('about_me_value').textContent = translations[currentLanguage].about_me_value;
   document.getElementById('name_label').textContent = translations[currentLanguage].name_label;
   document.getElementById('name_text').textContent = translations[currentLanguage].name_text;
   document.getElementById('age_text').textContent = translations[currentLanguage].age_text;
@@ -63,9 +64,12 @@ function applyTranslations() {
   document.getElementById('satisfied_clients_label').textContent = translations[currentLanguage].satisfied_clients_label;
   document.getElementById('programming_languages_count').textContent = translations[currentLanguage].programming_languages_count;
   document.getElementById('programming_languages_label').textContent = translations[currentLanguage].programming_languages_label;
-  document.getElementById('my_education').textContent = translations[currentLanguage].my_education;
-  document.getElementById('my_proects').textContent = translations[currentLanguage].my_proects;
-  document.getElementById('feedback').textContent = translations[currentLanguage].feedback;
+  document.getElementById('my_education_text').textContent = translations[currentLanguage].my_education_text;
+  document.getElementById('my_education_value').textContent = translations[currentLanguage].my_education_value;
+  document.getElementById('my_proects_text').textContent = translations[currentLanguage].my_proects_text;
+  document.getElementById('my_proects_value').textContent = translations[currentLanguage].my_proects_value;
+  document.getElementById('feedback_text').textContent = translations[currentLanguage].feedback_text;
+  document.getElementById('feedback_value').textContent = translations[currentLanguage].feedback_value;
   document.getElementById('contact_info').textContent = translations[currentLanguage].contact_info;
   document.getElementById('location').textContent = translations[currentLanguage].location;
   document.getElementById('name_placeholder').setAttribute('placeholder', translations[currentLanguage].name_placeholder);
