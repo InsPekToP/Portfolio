@@ -17,12 +17,23 @@
 
         <div class="user">
             <div class="language-switcher">
+                <button onclick="changeLanguage('en')">
+                    <img src="img/lang/gb.webp" alt="English" width="30" height="20">
+                </button>
+                <button onclick="changeLanguage('ru')">
+                    <img src="img/lang/ru.webp" alt="Русский" width="30" height="20">
+                </button>
+                <button onclick="changeLanguage('pl')">
+                    <img src="img/lang/pl.webp" alt="Polski" width="30" height="20">
+                </button>
+            </div>
+            <!-- <div class="language-switcher">
                 <button onclick="changeLanguage('en')">English</button>
                 <button onclick="changeLanguage('ru')">Русский</button>
                 <button onclick="changeLanguage('pl')">Polski</button>
-              </div>
+              </div> -->
               
-            <img src="img/user.jpg" alt="user_photo">
+            <img src="img/user.jpg" class="user_photo" alt="user_photo">
 
             <h3 id="name" class="name">Михаил Голиков</h3>
             <p id="developer">Python-разработчик</p>
@@ -85,7 +96,7 @@
             <h4><span id="profession_text" class="text">Профессия:</span><span id="profession_value" class="value">Разработчик</span></h4>
             <h4><span id="qualification_text" class="text">Квалификация:</span><span id="qualification_value" class="value">Junior</span></h4>
             
-            <a href="resume/CV_Holykov_developer_ru.docx" download="CV_Holykov-developer.docx">
+            <a href="resume/CV_Holykov_developer_ru.docx" download="CV_Holykov-developer_ru.docx">
                 <button id="download_cv" class="btn">Скачать CV <i class="fas fa-download"></i></button>
             </a>
         </div>

@@ -112,11 +112,36 @@ header{
 }
 
 header .user .language-switcher{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-top: 0rem;
 }
 
-header .user img {
+.language-switcher button img {
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease;
+}
+
+.language-switcher button {
+    background: none;
+    border: none;
+    padding: 1rem;
+    margin-bottom: 0;
+    transition: transform 0.3s ease;
+}
+
+.language-switcher button:hover{
+    transform: scale(1.2);
+}
+
+.language-switcher button:focus img {
+    border: 0.3rem solid deepskyblue; /* Цвет обводки */
+    box-shadow: var(--box-shadow); /* Тень вокруг кнопки */
+    border-radius: 0.5rem;
+}
+
+header .user .user_photo {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
