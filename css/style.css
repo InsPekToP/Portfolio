@@ -362,6 +362,10 @@ header .navbar ul li a:hover{
     padding: 1rem 0rem;
 
 }
+
+.education .box-container .box ul li{
+    padding-top: 1rem;
+}
 /* education section end */
 
 /* portfolio section start */

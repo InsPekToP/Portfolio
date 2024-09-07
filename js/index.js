@@ -83,7 +83,7 @@ function applyTranslations() {
   document.getElementById('python_developer').textContent = translations[currentLanguage].python_developer;
   document.getElementById('full_stack_developer').textContent = translations[currentLanguage].full_stack_developer;
   document.getElementById('freelancer').textContent = translations[currentLanguage].freelancer;
-  document.getElementById('designer').textContent = translations[currentLanguage].designer;
+  document.getElementById('javascript_developer').textContent = translations[currentLanguage].javascript_developer;
   document.getElementById('about_me_btn').textContent = translations[currentLanguage].about_me_btn;
   document.getElementById('about_me_text').textContent = translations[currentLanguage].about_me_text;
   document.getElementById('about_me_value').textContent = translations[currentLanguage].about_me_value;
@@ -105,7 +105,32 @@ function applyTranslations() {
   document.getElementById('programming_languages_count').textContent = translations[currentLanguage].programming_languages_count;
   document.getElementById('programming_languages_label').textContent = translations[currentLanguage].programming_languages_label;
   document.getElementById('my_education_text').textContent = translations[currentLanguage].my_education_text;
+  
+  document.getElementById('python_courses').textContent = translations[currentLanguage].python_courses;
+  document.getElementById('key_skills').textContent = translations[currentLanguage].key_skills;
+  document.getElementById('python_knowledge').textContent = translations[currentLanguage].python_knowledge;
+  document.getElementById('oop_understanding').textContent = translations[currentLanguage].oop_understanding;
+  document.getElementById('sql_knowledge').textContent = translations[currentLanguage].sql_knowledge;
+  document.getElementById('console_skills').textContent = translations[currentLanguage].console_skills;
+  document.getElementById('kivy_experience').textContent = translations[currentLanguage].kivy_experience;
+  document.getElementById('git_usage').textContent = translations[currentLanguage].git_usage;
+  document.getElementById('django_projects').textContent = translations[currentLanguage].django_projects;
+  document.getElementById('testing_principles').textContent = translations[currentLanguage].testing_principles;
+  document.getElementById('additional_knowledge').textContent = translations[currentLanguage].additional_knowledge;
+  document.getElementById('html_css').textContent = translations[currentLanguage].html_css;
+  document.getElementById('javascript_jquery').textContent = translations[currentLanguage].javascript_jquery;
+  document.getElementById('bootstrap_framework').textContent = translations[currentLanguage].bootstrap_framework;
+  document.getElementById('cross_browser').textContent = translations[currentLanguage].cross_browser;
+  document.getElementById('quick_learning').textContent = translations[currentLanguage].quick_learning;
+  document.getElementById('personal_skills').textContent = translations[currentLanguage].personal_skills;
+  document.getElementById('university_name').textContent = translations[currentLanguage].university_name;
+  document.getElementById('specialty').textContent = translations[currentLanguage].specialty;
+  document.getElementById('degree').textContent = translations[currentLanguage].degree;
+  document.getElementById('faculty').textContent = translations[currentLanguage].faculty;
+
   document.getElementById('my_education_value').textContent = translations[currentLanguage].my_education_value;
+  document.getElementById('my_works_text').textContent = translations[currentLanguage].my_works_text;
+  document.getElementById('my_works_value').textContent = translations[currentLanguage].my_works_value;
   document.getElementById('my_proects_text').textContent = translations[currentLanguage].my_proects_text;
   document.getElementById('my_proects_value').textContent = translations[currentLanguage].my_proects_value;
   document.getElementById('feedback_text').textContent = translations[currentLanguage].feedback_text;
@@ -128,3 +153,4 @@ function changeLanguage(lang) {
 
 // Загрузка переводов при загрузке страницы
 window.onload = loadTranslations;
+
