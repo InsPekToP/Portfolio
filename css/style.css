@@ -35,6 +35,7 @@ html{
 
 img{max-width: 100%;}
 
+
 body{
    background: #222;
    padding-left: 35rem;
@@ -171,7 +172,7 @@ header .navbar ul{
 
 header .navbar ul li a{
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
     text-decoration: none;
     margin: 1rem 0rem;
     background:#333;
@@ -355,7 +356,7 @@ header .navbar ul li a:hover{
     padding-top: 1.5rem;
 }
 
-.education .box-container .box p{
+.education .box-container .box ul{
     font-size: 1.5rem;
     color: #fff;
     padding: 1rem 0rem;
