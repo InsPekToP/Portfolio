@@ -136,7 +136,7 @@ header .user .language-switcher{
 }
 
 .language-switcher button:focus img {
-    border: 0.3rem solid deepskyblue; /* Цвет обводки */
+    border: 0.3rem solid var(--main-clr);
     box-shadow: var(--box-shadow); /* Тень вокруг кнопки */
     border-radius: 0.5rem;
 }
