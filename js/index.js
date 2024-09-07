@@ -84,6 +84,7 @@ function applyTranslations() {
   document.getElementById('full_stack_developer').textContent = translations[currentLanguage].full_stack_developer;
   document.getElementById('freelancer').textContent = translations[currentLanguage].freelancer;
   document.getElementById('javascript_developer').textContent = translations[currentLanguage].javascript_developer;
+  document.getElementById('intro_text').textContent = translations[currentLanguage].intro_text;
   document.getElementById('about_me_btn').textContent = translations[currentLanguage].about_me_btn;
   document.getElementById('about_me_text').textContent = translations[currentLanguage].about_me_text;
   document.getElementById('about_me_value').textContent = translations[currentLanguage].about_me_value;
