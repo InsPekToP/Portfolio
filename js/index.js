@@ -105,7 +105,6 @@ function applyTranslations() {
   document.getElementById('programming_languages_count').textContent = translations[currentLanguage].programming_languages_count;
   document.getElementById('programming_languages_label').textContent = translations[currentLanguage].programming_languages_label;
   document.getElementById('my_education_text').textContent = translations[currentLanguage].my_education_text;
-  
   document.getElementById('python_courses').textContent = translations[currentLanguage].python_courses;
   document.getElementById('key_skills').textContent = translations[currentLanguage].key_skills;
   document.getElementById('python_knowledge').textContent = translations[currentLanguage].python_knowledge;
@@ -127,7 +126,25 @@ function applyTranslations() {
   document.getElementById('specialty').textContent = translations[currentLanguage].specialty;
   document.getElementById('degree').textContent = translations[currentLanguage].degree;
   document.getElementById('faculty').textContent = translations[currentLanguage].faculty;
-
+  document.getElementById('loading_optimization').textContent = translations[currentLanguage].loading_optimization;
+  document.getElementById('barcode_scanning').textContent = translations[currentLanguage].barcode_scanning;
+  document.getElementById('documentation_handling').textContent = translations[currentLanguage].documentation_handling;
+  document.getElementById('data_management').textContent = translations[currentLanguage].data_management;
+  document.getElementById('forklift_operator').textContent = translations[currentLanguage].forklift_operator;
+  document.getElementById('lg_chem_position').textContent = translations[currentLanguage].lg_chem_position;
+  document.getElementById('lg_chem_optimization').textContent = translations[currentLanguage].lg_chem_optimization;
+  document.getElementById('lg_chem_scanner').textContent = translations[currentLanguage].lg_chem_scanner;
+  document.getElementById('lg_chem_documentation').textContent = translations[currentLanguage].lg_chem_documentation;
+  document.getElementById('lg_chem_data_management').textContent = translations[currentLanguage].lg_chem_data_management;
+  document.getElementById('tpv_position').textContent = translations[currentLanguage].tpv_position;
+  document.getElementById('tpv_packaging').textContent = translations[currentLanguage].tpv_packaging;
+  document.getElementById('tpv_transportation').textContent = translations[currentLanguage].tpv_transportation;
+  document.getElementById('tpv_forklift_operator').textContent = translations[currentLanguage].tpv_forklift_operator;
+  document.getElementById('night_club_position').textContent = translations[currentLanguage].night_club_position;
+  document.getElementById('night_club_service').textContent = translations[currentLanguage].night_club_service;
+  document.getElementById('night_club_client_service').textContent = translations[currentLanguage].night_club_client_service;
+  document.getElementById('night_club_management').textContent = translations[currentLanguage].night_club_management;
+  document.getElementById('night_club_financial_management').textContent = translations[currentLanguage].night_club_financial_management;
   document.getElementById('my_education_value').textContent = translations[currentLanguage].my_education_value;
   document.getElementById('my_works_text').textContent = translations[currentLanguage].my_works_text;
   document.getElementById('my_works_value').textContent = translations[currentLanguage].my_works_value;
