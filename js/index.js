@@ -156,6 +156,9 @@ function applyTranslations() {
   document.getElementById('l2zames_description').textContent = translations[currentLanguage].l2zames_description;
   document.getElementById('infinityfree_description').textContent = translations[currentLanguage].infinityfree_description;
   document.getElementById('blog_django_description').textContent = translations[currentLanguage].blog_django_description;
+  document.getElementById('view_l2spike').textContent = translations[currentLanguage].view_l2spike;
+  document.getElementById('view_l2zames').textContent = translations[currentLanguage].view_l2zames;
+  document.getElementById('view_l2infinityfree').textContent = translations[currentLanguage].view_l2infinityfree;
     
   document.getElementById('feedback_text').textContent = translations[currentLanguage].feedback_text;
   document.getElementById('feedback_value').textContent = translations[currentLanguage].feedback_value;

@@ -85,6 +85,9 @@
       "l2zames_description":"A pet project completed as part of ITproger.com courses. This site, created using the jQuery library, demonstrates my skills in web development, including creating interactive elements and implementing modern functional solutions. Suitable for evaluating my practical skills.",
       "infinityfree_description":"A project for testing website deployment on the InfinityFree.com platform with Bootstrap integration. This pet project demonstrates skills in deploying websites and using Bootstrap to create a responsive and modern design. Suitable for evaluating my skills in setting up and maintaining web projects.",
       "blog_django_description":"This is a Django project completed as part of the ITproger.com course. The project includes user registration, database connection, as well as adding, deleting, and editing posts. The possibility to add user avatars is also provided, which expands functionality and improves interaction.",
+      "view_l2spike": "View",
+      "view_l2zames": "View",
+      "view_l2infinityfree": "View",
 
       "feedback_text": "Feed",
       "feedback_value": "back",
@@ -180,6 +183,9 @@
       "l2zames_description":"Пет-проект, выполненный в рамках курсов ITproger.com. Этот сайт, созданный с использованием библиотеки jQuery, демонстрирует мои навыки в веб-разработке,включая создание интерактивных элементов и реализацию современных функциональных решений. Подходит для оценки моих умений в практике.",
       "infinityfree_description":"Проект тестовой выгрузки сайта на платформе InfinityFree.com с подключением Bootstrap. Этот пет-проект демонстрирует навыки в развертывании веб-сайтов и использовании Bootstrap для создания адаптивного и современного дизайна. Подходит для оценки моих умений в настройке и поддержке веб-проектов.",
       "blog_django_description":"Это Django-проект, выполненный в рамках курса ITproger.com. В проекте реализованы функции регистрации пользователей, подключение к базе данных, а также добавление, удаление и редактирование постов. Также предусмотрена возможность добавления аватарок пользователей, что расширяет функционал и улучшает взаимодействие.",
+      "view_l2spike": "Просмотр",
+      "view_l2zames": "Просмотр",
+      "view_l2infinityfree": "Просмотр",
 
       "feedback_text": "Обратная ",
       "feedback_value": "связь",      
@@ -275,6 +281,9 @@
       "l2zames_description":"Pet projekt zrealizowany w ramach kursów ITproger.com. Strona stworzona przy użyciu biblioteki jQuery pokazuje moje umiejętności w tworzeniu stron internetowych, w tym tworzenie interaktywnych elementów i wdrażanie nowoczesnych rozwiązań funkcjonalnych. Odpowiedni do oceny moich umiejętności praktycznych.",
       "infinityfree_description":"Projekt testowego wdrożenia strony internetowej na platformie InfinityFree.com z integracją Bootstrap. Ten pet projekt pokazuje umiejętności w zakresie wdrażania stron internetowych i korzystania z Bootstrap do tworzenia responsywnego i nowoczesnego designu. Odpowiedni do oceny moich umiejętności w konfiguracji i utrzymaniu projektów webowych.",
       "blog_django_description":"To projekt Django zrealizowany w ramach kursu ITproger.com. Projekt obejmuje rejestrację użytkowników, połączenie z bazą danych, a także dodawanie, usuwanie i edytowanie postów. Zawiera także możliwość dodawania awatarów użytkowników, co rozszerza funkcjonalność i poprawia interakcję.",
+      "view_l2spike": "Przegląd",
+      "view_l2zames": "Przegląd",
+      "view_l2infinityfree": "Przegląd",
 
       "feedback_text": "Formularz ",
       "feedback_value": "kontaktowy",      
