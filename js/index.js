@@ -151,6 +151,12 @@ function applyTranslations() {
   document.getElementById('my_works_value').textContent = translations[currentLanguage].my_works_value;
   document.getElementById('my_proects_text').textContent = translations[currentLanguage].my_proects_text;
   document.getElementById('my_proects_value').textContent = translations[currentLanguage].my_proects_value;
+  
+  document.getElementById('l2spike_description').textContent = translations[currentLanguage].l2spike_description;
+  document.getElementById('l2zames_description').textContent = translations[currentLanguage].l2zames_description;
+  document.getElementById('infinityfree_description').textContent = translations[currentLanguage].infinityfree_description;
+  document.getElementById('blog_django_description').textContent = translations[currentLanguage].blog_django_description;
+    
   document.getElementById('feedback_text').textContent = translations[currentLanguage].feedback_text;
   document.getElementById('feedback_value').textContent = translations[currentLanguage].feedback_value;
   document.getElementById('contact_info').textContent = translations[currentLanguage].contact_info;
