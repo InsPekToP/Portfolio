@@ -379,6 +379,7 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box{
+    position: relative;
     flex: 1 1 40rem;
     height: 40rem;
     border-radius: 2rem;
@@ -387,16 +388,74 @@ header .navbar ul li a:hover{
     box-shadow: var(--glowing-bxs);
     overflow: hidden;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .portfolio .box-container .box img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: transform 0.3s;
 }
 
 .portfolio .box-container .box:hover,img{
     transform: scale(1.1);
+}
+
+.portfolio .box-container .box .content {
+    position: relative;
+    z-index: 2;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+    width: 100%;
+}
+
+.portfolio .box-container .box .content h3 {
+    margin-bottom: 0.5rem;
+}
+
+.portfolio .box-container .box .content h3 a{
+    text-decoration: none;
+    font-size: var(--medium-fz);
+    color: var(--main-clr);
+}
+
+.portfolio .box-container .box .content p {
+    margin-bottom: 1rem;
+}
+
+
+
+.portfolio .box-container .box .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.portfolio .box-container .box .btn{
+    text-decoration: none;
+    padding: 0.1rem 3rem;
+    background: #0d1117;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    font-size: var(--small-fz);
+}
+
+
+.portfolio .box-container .box .btn:hover {
+    background-color: var(--main-clr);
 }
 /* portfolio section end */
 
