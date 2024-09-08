@@ -253,9 +253,10 @@ header .navbar ul li a:hover{
 /* home section end */
 
 /* about section start */
-/* .about{
+.about{
     background: url('../img/user_bg.jpg') top center no-repeat #0d1117;
-} */
+    background-attachment: fixed;
+}
 
 
 .about .row{
