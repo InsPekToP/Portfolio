@@ -225,6 +225,7 @@ header .navbar ul li a:hover{
     line-height: 9rem;
     overflow: hidden;
 }
+
 .home .container .second-text li{
     list-style: none;
     font-size: var(--large-fz);
