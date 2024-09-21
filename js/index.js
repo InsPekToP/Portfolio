@@ -32,16 +32,16 @@ async function loadTranslations() {
 // Массив с ссылками на резюме для разных языков
 const resumes = {
   en: {
-      href: "resume/CV_Holykov_developer_en.docx",
-      download: "CV_Holykov-developer_en.docx"
+      href: "resume/CV_en_Holykov_developer.docx",
+      download: "CV_en_Holykov-developer.docx"
   },
   ru: {
-      href: "resume/CV_Holykov_developer_ru.docx",
-      download: "CV_Holykov-developer_ru.docx"
+      href: "resume/CV_ru_Holykov_developer.docx",
+      download: "CV_ru_Holykov-developer.docx"
   },
   pl: {
-      href: "resume/CV_Holykov_developer_pl.docx",
-      download: "CV_Holykov-developer_pl.docx"
+      href: "resume/CV_pl_Holykov_developer.docx",
+      download: "CV_pl_Holykov-developer.docx"
   }
 };
 
@@ -150,16 +150,14 @@ function applyTranslations() {
   document.getElementById('my_works_text').textContent = translations[currentLanguage].my_works_text;
   document.getElementById('my_works_value').textContent = translations[currentLanguage].my_works_value;
   document.getElementById('my_proects_text').textContent = translations[currentLanguage].my_proects_text;
-  document.getElementById('my_proects_value').textContent = translations[currentLanguage].my_proects_value;
-  
+  document.getElementById('my_proects_value').textContent = translations[currentLanguage].my_proects_value; 
   document.getElementById('l2spike_description').textContent = translations[currentLanguage].l2spike_description;
   document.getElementById('l2zames_description').textContent = translations[currentLanguage].l2zames_description;
   document.getElementById('infinityfree_description').textContent = translations[currentLanguage].infinityfree_description;
   document.getElementById('blog_django_description').textContent = translations[currentLanguage].blog_django_description;
   document.getElementById('view_l2spike').textContent = translations[currentLanguage].view_l2spike;
   document.getElementById('view_l2zames').textContent = translations[currentLanguage].view_l2zames;
-  document.getElementById('view_l2infinityfree').textContent = translations[currentLanguage].view_l2infinityfree;
-    
+  document.getElementById('view_l2infinityfree').textContent = translations[currentLanguage].view_l2infinityfree;   
   document.getElementById('feedback_text').textContent = translations[currentLanguage].feedback_text;
   document.getElementById('feedback_value').textContent = translations[currentLanguage].feedback_value;
   document.getElementById('contact_info').textContent = translations[currentLanguage].contact_info;

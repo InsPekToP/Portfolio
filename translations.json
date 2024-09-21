@@ -80,7 +80,6 @@
       "my_works_value":"Experience",
       "my_proects_text": "My ",
       "my_proects_value": "Projects",
-
       "l2spike_description":"A project for developing a game server for Lineage 2, worked on by two beginner developers. The main goal is to restore and improve the original gaming experience for modern players.",
       "l2zames_description":"A pet project completed as part of ITproger.com courses. This site, created using the jQuery library, demonstrates my skills in web development, including creating interactive elements and implementing modern functional solutions. Suitable for evaluating my practical skills.",
       "infinityfree_description":"A project for testing website deployment on the InfinityFree.com platform with Bootstrap integration. This pet project demonstrates skills in deploying websites and using Bootstrap to create a responsive and modern design. Suitable for evaluating my skills in setting up and maintaining web projects.",
@@ -88,7 +87,6 @@
       "view_l2spike": "View",
       "view_l2zames": "View",
       "view_l2infinityfree": "View",
-
       "feedback_text": "Feed",
       "feedback_value": "back",
       "contact_info": "Contact Information",
@@ -178,7 +176,6 @@
       "my_works_value":"Работы",
       "my_proects_text": "Мои ",
       "my_proects_value": "Проекты",
-
       "l2spike_description":"Проект по разработке игрового сервера для Lineage 2, над которым трудятся два начинающих программиста. Основная цель — восстановить и усовершенствовать оригинальный игровой опыт для современного геймера.",
       "l2zames_description":"Пет-проект, выполненный в рамках курсов ITproger.com. Этот сайт, созданный с использованием библиотеки jQuery, демонстрирует мои навыки в веб-разработке,включая создание интерактивных элементов и реализацию современных функциональных решений. Подходит для оценки моих умений в практике.",
       "infinityfree_description":"Проект тестовой выгрузки сайта на платформе InfinityFree.com с подключением Bootstrap. Этот пет-проект демонстрирует навыки в развертывании веб-сайтов и использовании Bootstrap для создания адаптивного и современного дизайна. Подходит для оценки моих умений в настройке и поддержке веб-проектов.",
@@ -186,7 +183,6 @@
       "view_l2spike": "Просмотр",
       "view_l2zames": "Просмотр",
       "view_l2infinityfree": "Просмотр",
-
       "feedback_text": "Обратная ",
       "feedback_value": "связь",      
       "contact_info": "Контактная информация",
@@ -276,7 +272,6 @@
       "my_works_value":"Doświadczenie",
       "my_proects_text": "Moje ",
       "my_proects_value": "Projekty",
-
       "l2spike_description":"Projekt tworzenia serwera gry dla Lineage 2, nad którym pracuje dwóch początkujących programistów. Głównym celem jest odtworzenie i ulepszenie oryginalnego doświadczenia z gry dla współczesnych graczy.",
       "l2zames_description":"Pet projekt zrealizowany w ramach kursów ITproger.com. Strona stworzona przy użyciu biblioteki jQuery pokazuje moje umiejętności w tworzeniu stron internetowych, w tym tworzenie interaktywnych elementów i wdrażanie nowoczesnych rozwiązań funkcjonalnych. Odpowiedni do oceny moich umiejętności praktycznych.",
       "infinityfree_description":"Projekt testowego wdrożenia strony internetowej na platformie InfinityFree.com z integracją Bootstrap. Ten pet projekt pokazuje umiejętności w zakresie wdrażania stron internetowych i korzystania z Bootstrap do tworzenia responsywnego i nowoczesnego designu. Odpowiedni do oceny moich umiejętności w konfiguracji i utrzymaniu projektów webowych.",
@@ -284,7 +279,6 @@
       "view_l2spike": "Przegląd",
       "view_l2zames": "Przegląd",
       "view_l2infinityfree": "Przegląd",
-
       "feedback_text": "Formularz ",
       "feedback_value": "kontaktowy",      
       "contact_info": "Informacje Kontaktowe",
