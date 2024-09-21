@@ -236,6 +236,7 @@ header .navbar ul li a:hover{
     top: 0;
     animation: slide 8s steps(4) infinite,color 7s infinite;
 }
+
 @keyframes slide{
     100%{
         top:-36rem
